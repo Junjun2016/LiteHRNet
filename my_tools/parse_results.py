@@ -36,7 +36,7 @@ def parse_log(file, keywords):
         return last
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     configs_root = 'configs/deeplabv3plus'
     work_dirs = os.path.join(configs_root, 'work_dirs')
     file_suffix = '.log'

@@ -1,8 +1,9 @@
 import copy
 import json
-import mmcv
 import os
 from glob import glob
+
+import mmcv
 
 
 def parse_log_json(file):
@@ -38,7 +39,7 @@ def parse_log_json(file):
         return last
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     save_path = 'results'
     mmcv.mkdir_or_exist(save_path)
     work_dirs = 'work_dirs'
