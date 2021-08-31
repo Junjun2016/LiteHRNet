@@ -4,3 +4,4 @@ _base_ = [
     '../_base_/schedules/schedule_160k.py'
 ]
 model = dict(decode_head=dict(num_classes=150))
+find_unused_parameters = True
