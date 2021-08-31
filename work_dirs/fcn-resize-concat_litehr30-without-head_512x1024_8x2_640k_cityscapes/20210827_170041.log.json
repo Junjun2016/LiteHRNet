@@ -6490,3 +6490,5 @@
 {"mode": "train", "epoch": 1744, "iter": 324200, "lr": 0.00534, "memory": 9961, "data_time": 0.40272, "decode.loss_seg": 0.17791, "decode.acc_seg": 87.83373, "loss": 0.17791, "time": 1.43563}
 {"mode": "train", "epoch": 1744, "iter": 324250, "lr": 0.00534, "memory": 9961, "data_time": 0.01158, "decode.loss_seg": 0.18547, "decode.acc_seg": 88.3537, "loss": 0.18547, "time": 1.06117}
 {"mode": "train", "epoch": 1744, "iter": 324300, "lr": 0.00534, "memory": 9961, "data_time": 0.01236, "decode.loss_seg": 0.18419, "decode.acc_seg": 88.45411, "loss": 0.18419, "time": 1.07389}
+{"mode": "train", "epoch": 1744, "iter": 324350, "lr": 0.00534, "memory": 9961, "data_time": 0.01234, "decode.loss_seg": 0.18337, "decode.acc_seg": 87.9202, "loss": 0.18337, "time": 1.04724}
+{"mode": "train", "epoch": 1745, "iter": 324400, "lr": 0.00534, "memory": 9961, "data_time": 0.36061, "decode.loss_seg": 0.17874, "decode.acc_seg": 87.70639, "loss": 0.17874, "time": 1.38368}

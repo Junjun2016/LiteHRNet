@@ -11303,3 +11303,6 @@
 {"mode": "train", "epoch": 3037, "iter": 564700, "lr": 0.00154, "memory": 5631, "data_time": 0.35597, "decode.loss_seg": 0.15055, "decode.acc_seg": 89.15592, "loss": 0.15055, "time": 0.99554}
 {"mode": "train", "epoch": 3037, "iter": 564750, "lr": 0.00154, "memory": 5631, "data_time": 0.0092, "decode.loss_seg": 0.14776, "decode.acc_seg": 89.20355, "loss": 0.14776, "time": 0.65001}
 {"mode": "train", "epoch": 3037, "iter": 564800, "lr": 0.00154, "memory": 5631, "data_time": 0.00912, "decode.loss_seg": 0.14749, "decode.acc_seg": 89.29681, "loss": 0.14749, "time": 0.63148}
+{"mode": "train", "epoch": 3037, "iter": 564850, "lr": 0.00154, "memory": 5631, "data_time": 0.00893, "decode.loss_seg": 0.14594, "decode.acc_seg": 89.28859, "loss": 0.14594, "time": 0.66869}
+{"mode": "train", "epoch": 3038, "iter": 564900, "lr": 0.00154, "memory": 5631, "data_time": 0.36207, "decode.loss_seg": 0.14331, "decode.acc_seg": 89.62773, "loss": 0.14331, "time": 1.01902}
+{"mode": "train", "epoch": 3038, "iter": 564950, "lr": 0.00154, "memory": 5631, "data_time": 0.00989, "decode.loss_seg": 0.14273, "decode.acc_seg": 89.19246, "loss": 0.14273, "time": 0.63667}

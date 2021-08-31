@@ -7830,3 +7830,5 @@
 {"mode": "train", "epoch": 2103, "iter": 391150, "lr": 0.00433, "memory": 4086, "data_time": 0.01213, "decode.loss_seg": 0.16159, "decode.acc_seg": 88.75331, "loss": 0.16159, "time": 1.05404}
 {"mode": "train", "epoch": 2104, "iter": 391200, "lr": 0.00433, "memory": 4086, "data_time": 0.38638, "decode.loss_seg": 0.17362, "decode.acc_seg": 88.9207, "loss": 0.17362, "time": 1.39626}
 {"mode": "train", "epoch": 2104, "iter": 391250, "lr": 0.00433, "memory": 4086, "data_time": 0.01222, "decode.loss_seg": 0.1659, "decode.acc_seg": 87.89425, "loss": 0.1659, "time": 1.00081}
+{"mode": "train", "epoch": 2104, "iter": 391300, "lr": 0.00433, "memory": 4086, "data_time": 0.01207, "decode.loss_seg": 0.1847, "decode.acc_seg": 88.526, "loss": 0.1847, "time": 1.03433}
+{"mode": "train", "epoch": 2105, "iter": 391350, "lr": 0.00433, "memory": 4086, "data_time": 0.39341, "decode.loss_seg": 0.1879, "decode.acc_seg": 87.71234, "loss": 0.1879, "time": 1.39969}

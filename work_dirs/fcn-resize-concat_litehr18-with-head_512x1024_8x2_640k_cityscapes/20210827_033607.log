@@ -16520,3 +16520,6 @@ after_val_epoch:
 2021-09-01 01:12:08,442 - mmseg - INFO - Iter [564700/640000]	lr: 1.543e-03, eta: 15:40:49, time: 0.996, data_time: 0.356, memory: 5631, decode.loss_seg: 0.1506, decode.acc_seg: 89.1559, loss: 0.1506
 2021-09-01 01:12:40,944 - mmseg - INFO - Iter [564750/640000]	lr: 1.542e-03, eta: 15:40:11, time: 0.650, data_time: 0.009, memory: 5631, decode.loss_seg: 0.1478, decode.acc_seg: 89.2036, loss: 0.1478
 2021-09-01 01:13:12,507 - mmseg - INFO - Iter [564800/640000]	lr: 1.541e-03, eta: 15:39:32, time: 0.631, data_time: 0.009, memory: 5631, decode.loss_seg: 0.1475, decode.acc_seg: 89.2968, loss: 0.1475
+2021-09-01 01:13:45,958 - mmseg - INFO - Iter [564850/640000]	lr: 1.540e-03, eta: 15:38:54, time: 0.669, data_time: 0.009, memory: 5631, decode.loss_seg: 0.1459, decode.acc_seg: 89.2886, loss: 0.1459
+2021-09-01 01:14:36,893 - mmseg - INFO - Iter [564900/640000]	lr: 1.539e-03, eta: 15:38:19, time: 1.019, data_time: 0.362, memory: 5631, decode.loss_seg: 0.1433, decode.acc_seg: 89.6277, loss: 0.1433
+2021-09-01 01:15:08,727 - mmseg - INFO - Iter [564950/640000]	lr: 1.538e-03, eta: 15:37:41, time: 0.637, data_time: 0.010, memory: 5631, decode.loss_seg: 0.1427, decode.acc_seg: 89.1925, loss: 0.1427

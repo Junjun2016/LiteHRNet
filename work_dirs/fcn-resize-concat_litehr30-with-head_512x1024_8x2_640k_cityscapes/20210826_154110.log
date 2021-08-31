@@ -15982,3 +15982,6 @@ after_val_epoch:
 2021-09-01 01:11:11,120 - mmseg - INFO - Iter [409850/640000]	lr: 4.044e-03, eta: 3 days, 0:42:57, time: 1.028, data_time: 0.012, memory: 6854, decode.loss_seg: 0.1667, decode.acc_seg: 88.1078, loss: 0.1667
 2021-09-01 01:12:01,971 - mmseg - INFO - Iter [409900/640000]	lr: 4.043e-03, eta: 3 days, 0:41:57, time: 1.017, data_time: 0.013, memory: 6854, decode.loss_seg: 0.1607, decode.acc_seg: 89.2107, loss: 0.1607
 2021-09-01 01:13:12,650 - mmseg - INFO - Iter [409950/640000]	lr: 4.042e-03, eta: 3 days, 0:41:08, time: 1.413, data_time: 0.371, memory: 6854, decode.loss_seg: 0.1630, decode.acc_seg: 89.1906, loss: 0.1630
+2021-09-01 01:14:03,563 - mmseg - INFO - Exp name: fcn-resize-concat_litehr30-with-head_512x1024_8x2_640k_cityscapes.py
+2021-09-01 01:14:03,565 - mmseg - INFO - Iter [410000/640000]	lr: 4.041e-03, eta: 3 days, 0:40:08, time: 1.019, data_time: 0.013, memory: 6854, decode.loss_seg: 0.1571, decode.acc_seg: 88.9221, loss: 0.1571
+2021-09-01 01:14:52,954 - mmseg - INFO - Iter [410050/640000]	lr: 4.040e-03, eta: 3 days, 0:39:07, time: 0.988, data_time: 0.012, memory: 6854, decode.loss_seg: 0.1549, decode.acc_seg: 88.9297, loss: 0.1549

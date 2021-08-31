@@ -5954,3 +5954,4 @@
 {"mode": "train", "epoch": 1600, "iter": 297450, "lr": 0.00574, "memory": 3766, "data_time": 0.39154, "decode.loss_seg": 0.19432, "decode.acc_seg": 88.22245, "loss": 0.19432, "time": 1.39659}
 {"mode": "train", "epoch": 1600, "iter": 297500, "lr": 0.00574, "memory": 3766, "data_time": 0.01323, "decode.loss_seg": 0.20987, "decode.acc_seg": 87.4828, "loss": 0.20987, "time": 0.96679}
 {"mode": "train", "epoch": 1600, "iter": 297550, "lr": 0.00574, "memory": 3766, "data_time": 0.0119, "decode.loss_seg": 0.19373, "decode.acc_seg": 88.22866, "loss": 0.19373, "time": 0.96956}
+{"mode": "train", "epoch": 1600, "iter": 297600, "lr": 0.00574, "memory": 3766, "data_time": 0.01237, "decode.loss_seg": 0.18793, "decode.acc_seg": 87.6536, "loss": 0.18793, "time": 0.97949}
