@@ -2,18 +2,18 @@
 # Adapted from https://github.com/HRNet/Lite-HRNet
 # Original licence: Apache License 2.0.
 # ------------------------------------------------------------------------------
-import warnings
-
 import mmcv
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils.checkpoint as cp
+import warnings
 from mmcv.cnn import (ConvModule, DepthwiseSeparableConvModule,
                       build_conv_layer, build_norm_layer)
 from mmcv.runner import BaseModule
 from torch.nn.modules.batchnorm import _BatchNorm
 
+from mmseg.ops import resize
 from ..builder import BACKBONES
 from ..utils import channel_shuffle
 
@@ -644,6 +644,7 @@ class LiteHRModule(BaseModule):
                                 padding=0,
                                 bias=False),
                             build_norm_layer(self.norm_cfg, in_channels[i])[1],
+                            # different from hrnet
                             nn.Upsample(
                                 scale_factor=2**(j - i), mode='nearest')))
                 elif j == i:
@@ -726,6 +727,13 @@ class LiteHRModule(BaseModule):
                 for j in range(self.num_branches):
                     if i == j:
                         y += out[j]
+                    elif j > i:
+                        # different from hrnet
+                        y += resize(
+                            self.fuse_layers[i][j](out[j]),
+                            size=out[i].shape[2:],
+                            mode='bilinear',
+                            align_corners=False)
                     else:
                         y += self.fuse_layers[i][j](out[j])
                 out_fuse.append(self.relu(y))
@@ -815,7 +823,7 @@ class LiteHRNet(BaseModule):
         elif pretrained is None:
             if init_cfg is None:
                 self.init_cfg = [
-                    dict(type='NormalInit', std=0.001, layer='Conv2d'),
+                    dict(type='Normal', std=0.001, layer='Conv2d'),
                     dict(
                         type='Constant',
                         val=1,
