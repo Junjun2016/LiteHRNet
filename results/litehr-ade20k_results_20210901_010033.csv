@@ -1,0 +1,20 @@
+method, log time, mIoU last, mAcc last, last eval, mIoU best, mAcc best, best eval
+fcn-resize-concat_litehr18-with-head_512x512_160k_ade20k, 20210813_112154.log.json, 16.150000000000002, 22.12, 2, 16.150000000000002, 22.12, 2
+fcn-resize-concat_litehr18-with-head_512x512_160k_ade20k, 20210815_232322.log.json, 24.2, 31.669999999999998, 10, 24.2, 31.669999999999998, 10
+fcn-resize-concat_litehr18-with-head_512x512_160k_ade20k, 20210816_104233.log.json, 26.169999999999998, 34.86, 10, 26.169999999999998, 34.86, 10
+fcn-resize-concat_litehr18-without-head_512x512_160k_ade20k, 20210814_024149.log.json, 16.89, 22.96, 2, 16.89, 22.96, 2
+fcn-resize-concat_litehr18-without-head_512x512_160k_ade20k, 20210816_110434.log.json, 24.709999999999997, 32.46, 10, 24.709999999999997, 32.46, 10
+fcn-resize-concat_litehr30-with-head_512x512_160k_ade20k, 20210814_024904.log.json, 16.77, 22.89, 2, 16.77, 22.89, 2
+fcn-resize-concat_litehr30-with-head_512x512_160k_ade20k, 20210816_171800.log.json, 26.810000000000002, 34.96, 10, 26.810000000000002, 34.96, 10
+fcn-resize-concat_litehr30-without-head_512x512_160k_ade20k, 20210813_111115.log.json, 16.37, 22.7, 2, 16.37, 22.7, 2
+fcn-resize-concat_litehr30-without-head_512x512_160k_ade20k, 20210816_151151.log.json, 24.38, 32.519999999999996, 10, 24.38, 32.519999999999996, 10
+fcn_litehr18-with-head_512x512_160k_ade20k, 20210813_111112.log.json, 0, 0, 0, 0, 0, 0
+fcn_litehr18-with-head_512x512_160k_ade20k, 20210816_010157.log.json, 23.82, 31.509999999999998, 10, 23.82, 31.509999999999998, 10
+fcn_litehr18-with-head_512x512_160k_ade20k, 20210816_111804.log.json, 24.14, 31.81, 10, 24.14, 31.81, 10
+fcn_litehr18-without-head_512x512_160k_ade20k, 20210813_110812.log.json, 12.23, 17.0, 2, 12.23, 17.0, 2
+fcn_litehr18-without-head_512x512_160k_ade20k, 20210815_232922.log.json, 20.82, 27.58, 10, 20.82, 27.58, 10
+fcn_litehr18-without-head_512x512_160k_ade20k, 20210816_103133.log.json, 21.98, 29.060000000000002, 10, 21.98, 29.060000000000002, 10
+fcn_litehr30-with-head_512x512_160k_ade20k, 20210813_225024.log.json, 14.11, 19.06, 3, 14.11, 19.06, 3
+fcn_litehr30-with-head_512x512_160k_ade20k, 20210816_133101.log.json, 24.060000000000002, 31.78, 10, 24.060000000000002, 31.78, 10
+fcn_litehr30-without-head_512x512_160k_ade20k, 20210814_021359.log.json, 14.37, 19.21, 3, 14.37, 19.21, 3
+fcn_litehr30-without-head_512x512_160k_ade20k, 20210816_121228.log.json, 25.22, 32.67, 10, 25.22, 32.67, 10
